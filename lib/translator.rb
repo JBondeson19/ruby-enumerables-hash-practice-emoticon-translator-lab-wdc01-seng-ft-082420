@@ -5,7 +5,7 @@ def load_library(emoticon_files)
   # code goes here
   emoticons = YAML.load_file('./lib/emoticons.yml')
 
-  Hash[emoticon_files.map{|(k,v)| [k.to_sym,v]}]
+  Hash[emoticons.map{|(key,val)| [key.to_sym,val]}]
 
   emotes = { 'meaning' => {},
               'values' => {},
