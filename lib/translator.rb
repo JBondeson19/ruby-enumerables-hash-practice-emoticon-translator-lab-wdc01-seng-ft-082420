@@ -9,7 +9,6 @@ def load_library(emoticon_files)
      new_hash[key] = {}
      new_hash[key][:english]= val[0]
      new_hash[key][:japanese]=val[1]
-
 #  binding.pry
    end
 new_hash
