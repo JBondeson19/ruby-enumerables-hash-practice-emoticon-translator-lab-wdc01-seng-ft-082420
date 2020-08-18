@@ -12,7 +12,7 @@ def load_library(emoticon_files)
 new_hash
 end
 
-def get_english_meaning
+def get_english_meaning(./lib/emoticons.yml)
   # code goes here
 end
 
