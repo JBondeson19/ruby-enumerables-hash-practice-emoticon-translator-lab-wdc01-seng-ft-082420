@@ -18,9 +18,8 @@ def get_english_meaning(emoticon_files, emoticon)
       if emoticon == val[:japanese]
         return key
       end
-  #binding.pry
   end
-
+puts "Sorry, that emoticon was not found"
 
 
 end
