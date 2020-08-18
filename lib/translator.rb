@@ -17,5 +17,5 @@ def get_english_meaning(emoticon_files, emoticons)
 end
 
 def get_japanese_emoticon(emoticon_files, emoticons)
-  load_library(emoticon_files) = new_hash[key][:english]
+  load_library(emoticon_files) =
 end
