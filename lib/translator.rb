@@ -13,8 +13,6 @@ new_hash
 end
 
 def get_english_meaning(emoticon_files, emoticons)
-  enlish_meaning = new_hash[key][:english]
-  
   load_library(emoticon_files)
 
 
