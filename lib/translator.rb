@@ -14,9 +14,9 @@ end
 
 def get_english_meaning(emoticon_files, emoticons)
   english_meaning = {}
-  load_library(emoticon_files).map do |key|
+  load_library(emoticons).map do |key|
       english_meaning[key] = emoticons
-binding.pry
+#binding.pry
   end
 
 end
