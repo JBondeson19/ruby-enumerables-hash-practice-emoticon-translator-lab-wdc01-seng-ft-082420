@@ -12,9 +12,10 @@ def load_library(emoticon_files)
 new_hash
 end
 
-def get_english_meaning(emoticon_files, emoticons)
+def get_english_meaning(emoticon_files, emoticon)
   #english_meaning = {}
   load_library(emoticon_files).each_with_object({}) do |key, val|
+    key.each do |
   #english_meaning = emoticons[key]
 
   end
