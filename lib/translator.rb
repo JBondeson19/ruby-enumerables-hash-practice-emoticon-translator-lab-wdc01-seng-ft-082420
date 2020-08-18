@@ -9,14 +9,7 @@ def load_library(emoticon_files)
 
   }
 
-  emoticons.each do |meaning, value|
-    
-  english = value[0]
-   japanese = value[1]
-   emotes['get_meaning'][japanese] = meaning
-   emotes['get_emoticon'][english] = japanese
-end
-emotes
+
 #binding.pry
 end
 
