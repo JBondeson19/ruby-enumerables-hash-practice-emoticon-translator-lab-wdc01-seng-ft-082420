@@ -19,7 +19,6 @@ def get_english_meaning(emoticon_files, emoticons)
 
   end
 
-binding.pry
 
 
 end
