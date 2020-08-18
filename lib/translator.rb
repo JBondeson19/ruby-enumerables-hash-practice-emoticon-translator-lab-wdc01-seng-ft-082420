@@ -16,8 +16,8 @@ def get_english_meaning(emoticon_files, emoticon)
   #english_meaning = {}
   load_library(emoticon_files).each do |key, val|
       if emoticon == val[:japanese]
-
-
+        
+        key
 
       end
   #english_meaning = emoticons[key]
