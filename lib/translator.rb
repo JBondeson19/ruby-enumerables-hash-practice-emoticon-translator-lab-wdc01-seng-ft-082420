@@ -3,8 +3,11 @@ require "pry"
 
 def load_library(emoticon_files)
   # code goes here
-  emotes = YAML.load_file('./lib/emoticons.yml')
+  emoticons = YAML.load_file('./lib/emoticons.yml')
+  emotes = { 'meaning' => {},
+              'values' => {},
 
+  }
 
 binding.pry
 end
