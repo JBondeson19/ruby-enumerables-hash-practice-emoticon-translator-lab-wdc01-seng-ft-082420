@@ -9,7 +9,6 @@ def load_library(emoticon_files)
 
   }
 
-
 #binding.pry
 end
 
