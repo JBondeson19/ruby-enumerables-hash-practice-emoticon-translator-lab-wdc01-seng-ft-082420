@@ -13,7 +13,7 @@ new_hash
 end
 
 def get_english_meaning(emoticon_files, emoticons)
-  english_meaning = []
+  english_meaning = {}
   load_library(emoticon_files).collect do |key,val|
   english_meaning[key]={}
   english_meaning[key][:Japanese]=val[1]
