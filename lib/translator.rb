@@ -19,7 +19,7 @@ def get_english_meaning(emoticon_files, emoticons)
   english_meaning[key][:english]=val[0]
 
   end
-binding.pry fd
+
 end
 
 def get_japanese_emoticon(emoticon_files, emoticons)
