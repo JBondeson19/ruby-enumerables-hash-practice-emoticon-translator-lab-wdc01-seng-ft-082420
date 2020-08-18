@@ -9,7 +9,7 @@ def load_library(emoticon_files)
 
   }
 
-binding.pry
+#binding.pry
 end
 
 def get_japanese_emoticon
